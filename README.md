@@ -1,0 +1,1 @@
+For this assignment, a simple webserver has been implemented to support a subset of the Hypertext Transfer Protocol (HTTP). This webserver is designed to service multiple client requests by forking child processes, which are responsible for handling the actual request logic.
