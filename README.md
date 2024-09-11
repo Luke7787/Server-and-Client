@@ -27,7 +27,6 @@ This assignment involves implementing a simple webserver that supports a subset 
 ### Functional Overview
 
 1. **Extend Echo Server**
-   - Start with the echo server solution from Lab 7.
    - Modify the echo server to spawn a child process for each client request.
    - The primary (parent) process should register a signal handler for the `SIGCHLD` signal and wait within that handler. 
    - Use `waitpid` with `WNOHANG` and a loop to handle all pending child processes:
