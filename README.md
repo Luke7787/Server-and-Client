@@ -22,11 +22,6 @@ This assignment involves implementing a simple webserver that supports a subset 
 ### Indirect
 - **Use standard UNIX user-level commands and the UNIX software development environment.**
 
-## Setup
-
-1. **Clone the Repository**
-   - Accept the GitHub Classroom Invitation: [GitHub Classroom Invitation](https://classroom.github.com/a/7dlVT14T)
-
 ## Requirements
 
 ### Functional Overview
