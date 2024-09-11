@@ -22,6 +22,34 @@ This assignment involves implementing a simple webserver that supports a subset 
 ### Indirect
 - **Use standard UNIX user-level commands and the UNIX software development environment.**
 
+## Running the Project
+
+1. **Clone the Repository**
+   - First, clone the repository to your local machine:
+     ```bash
+     git clone https://github.com/your-repository-url.git
+     cd your-repository-directory
+     ```
+
+2. **Build the Project**
+   - In one terminal, navigate to the project directory and compile the source code:
+     ```bash
+     make
+     ```
+
+3. **Start the Webserver**
+   - In a second terminal, start the webserver by running the compiled executable:
+     ```bash
+     ./webserver
+     ```
+
+4. **Test the Server**
+   - Use a web browser or a tool like `curl` in a third terminal or another application to send a `GET` request to the server. For example:
+     ```bash
+     curl http://localhost:port/source.txt
+     ```
+   - Replace `port` with the port number your server is listening on.
+
 ## Requirements
 
 ### Functional Overview
