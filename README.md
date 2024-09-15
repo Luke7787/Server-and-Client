@@ -12,8 +12,6 @@ This assignment involves implementing a simple webserver that supports a subset 
 
 ### Direct
 - **Read and write complex C programs.**
-- **Transition to upper-division coursework where programming is used to explore course-specific content.**
-- **Move from following stepwise instructions to independent problem solving.**
 - **Discuss the UNIX operating system architecture and use operating system services (system calls) directly.**
 - **Differentiate between language features and operating system features.**
 - **Gain experience with low-level programming in the UNIX environment.**
