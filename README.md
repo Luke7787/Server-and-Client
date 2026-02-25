@@ -1,12 +1,8 @@
-# Simple Webserver Implementation
-
-## Introduction
-
-A project for CSC 357: Systems Programming from California Polytechnic State University. This assignment involves building a simple webserver that supports a subset of the Hypertext Transfer Protocol (HTTP). The webserver will manage multiple client requests using child processes, providing hands-on experience with system-level programming in C and UNIX environments.
+# Webserver Implementation
 
 ## Overview
 
-This assignment involves implementing a simple webserver that supports a subset of the Hypertext Transfer Protocol (HTTP). The webserver will handle multiple client requests by forking child processes for each request.
+A project for CSC 357: Systems Programming from California Polytechnic State University. This assignment involves building a simple webserver that supports a subset of the Hypertext Transfer Protocol (HTTP). The webserver will manage multiple client requests using child processes, providing hands-on experience with system-level programming in C and UNIX environments.
 
 ## Course Learning Objectives
 
