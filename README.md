@@ -4,6 +4,23 @@
 
 CSC 357 Systems Programming project at Cal Poly where I implemented an HTTP web server in C with concurrent client handling via child processes in a UNIX environment.
 
+## Implementation Details
+
+1. **Extend Echo Server**
+   - Modify the echo server to spawn a child process for each client request.
+   - The primary (parent) process should register a signal handler for the `SIGCHLD` signal and wait within that handler. 
+   - Use `waitpid` with `WNOHANG` and a loop to handle all pending child processes:
+     ```c
+     while (waitpid(-1, NULL, WNOHANG) > 0);
+     ```
+
+2. **Implement HTTP Protocol**
+   - Your server should implement a subset of HTTP, specifically handling `GET` requests.
+   - Each request will be a single text line in the format: `GET filename`.
+   - For example: `GET source.txt`
+   - The server should locate the requested file and, if found, send its contents back to the client.
+   - Ensure the server does not close the socket until the client does.
+
 ## Learning Objectives
 
 ### Direct
@@ -40,22 +57,3 @@ CSC 357 Systems Programming project at Cal Poly where I implemented an HTTP web 
      curl http://localhost:port/source.txt
      ```
    - Replace `port` with the port number your server is listening on.
-
-## Requirements
-
-### Functional Overview
-
-1. **Extend Echo Server**
-   - Modify the echo server to spawn a child process for each client request.
-   - The primary (parent) process should register a signal handler for the `SIGCHLD` signal and wait within that handler. 
-   - Use `waitpid` with `WNOHANG` and a loop to handle all pending child processes:
-     ```c
-     while (waitpid(-1, NULL, WNOHANG) > 0);
-     ```
-
-2. **Implement HTTP Protocol**
-   - Your server should implement a subset of HTTP, specifically handling `GET` requests.
-   - Each request will be a single text line in the format: `GET filename`.
-   - For example: `GET source.txt`
-   - The server should locate the requested file and, if found, send its contents back to the client.
-   - Ensure the server does not close the socket until the client does.
