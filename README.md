@@ -66,7 +66,3 @@ This assignment involves implementing a simple webserver that supports a subset 
    - For example: `GET source.txt`
    - The server should locate the requested file and, if found, send its contents back to the client.
    - Ensure the server does not close the socket until the client does.
-
-3. **Create Test File**
-   - For grading purposes, create a file named `source.txt` in the same directory as your client and server files. 
-   - The content of `source.txt` can be a short line of text.
