@@ -4,7 +4,7 @@
 
 A project for CSC 357: Systems Programming from California Polytechnic State University. This assignment involves building a simple webserver that supports a subset of the Hypertext Transfer Protocol (HTTP). The webserver will manage multiple client requests using child processes, providing hands-on experience with system-level programming in C and UNIX environments.
 
-## Course Learning Objectives
+## Learning Objectives
 
 ### Direct
 - **Read and write complex C programs.**
@@ -12,9 +12,6 @@ A project for CSC 357: Systems Programming from California Polytechnic State Uni
 - **Differentiate between language features and operating system features.**
 - **Gain experience with low-level programming in the UNIX environment.**
 - **Consider basic resource management in program development.**
-
-### Indirect
-- **Use standard UNIX user-level commands and the UNIX software development environment.**
 
 ## Running the Project
 
