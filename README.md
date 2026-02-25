@@ -70,19 +70,3 @@ This assignment involves implementing a simple webserver that supports a subset 
 3. **Create Test File**
    - For grading purposes, create a file named `source.txt` in the same directory as your client and server files. 
    - The content of `source.txt` can be a short line of text.
-
-## Deliverables
-
-- **Source Code**: Push all relevant source code and Makefile to your repository.
-
-## Grading Rubric
-
-- **Functionality – Handling Clients through `fork()`**: 25 points
-- **Functionality – Using Signals to Handle Clients**: 20 points
-- **Functionality – HTTP Implementation on Server Side**: 20 points
-- **Functionality – HTTP Implementation on Client Side**: 15 points
-- **Program Style**: 10 points
-  - The source code should follow best practices regarding line length, function decomposition, naming conventions, and documentation.
-- **Clean Valgrind Report**: 10 points
-
-**Total**: 100 points
