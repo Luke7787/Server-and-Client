@@ -1,4 +1,4 @@
-## Webserver Overview
+## Overview
 
 CSC 357 Systems Programming project at Cal Poly where I implemented an HTTP web server in C with concurrent client handling via child processes in a UNIX environment.
 
